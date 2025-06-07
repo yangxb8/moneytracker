@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "money_tracking",
+    "slug": "money_tracking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#122332"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img_logo.png",
+        "backgroundColor": "#122332"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "98d30921-319f-4f9a-9e14-63b11bd039f4"
+      }
+    },
+    "newArchEnabled": true,
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/98d30921-319f-4f9a-9e14-63b11bd039f4"
+    }
+  }
+}
