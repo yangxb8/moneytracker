@@ -4,23 +4,24 @@ Last-Updated: 2025-06-08
 
 ## Project Goal
 
-Describe the primary objective of your project in 1-2 sentences.
+This is an money tracker app built using Expo. It's inspired by [QianJi](https://qianjiapp.com/) with some AI features.
 
 ## Tech Stack
 
-- **Language(s):** e.g. TypeScript 5, Python 3.12
-- **Framework(s):** e.g. Next.js 14, FastAPI 0.111
-- **Build / Tooling:** esbuild, Poetry, Docker, etc.
+- **Language(s):** TypeScript 5
+- **Framework(s):** Expo 53
+- **Backend:** Supabase
+- **Build / Tooling:** Expo
 
 ## Critical Patterns & Conventions
 
-List coding standards, architectural patterns, naming conventions, and style guides that must be followed.
+- Expo app best practice.
+- Local-first design, but sync changes from/to DB in Supabase to support multi-users usage.
+- All AI feature should be API call to supabase edge function. Mock up API call if you need.
 
 ## Constraints
 
-- Performance / latency budgets
-- Security or compliance requirements
-- External APIs with rate limits or cost ceilings
+- Constraint AI usage as much as possible.
 
 ## Tokenization Settings
 
